@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body></body>
+<script>
+    //slide 9 - construa uma pagina/progama onde o usuario digitará dez numeros e o progama somará a calculará a média dos numeros digitados.
+    lista = []//a princípio a lista não é necessaria, somente se fosse para guardar os numeros digitados.
+    qtd = 3 //quantidade de vezes da entrada do usuario.
+    soma = 0 //o 0 é o elemento neutro da soma.
+
+
+    for(i = 0; i < qtd; i++){//o valor 0 do i, indica a posição inicial do loop. A meta é rodar 3 vezes.
+        lista[i] = +(prompt("Digite um numero"))
+        soma = soma + lista[i]
+        //soma += lista[i] - esse é um atalho de atribuição, para não rescrever a variável duas vezes.
+
+
+    }
+media = soma/qt
+
+alert('A soma é:'+soma+ '\nA média é:'+media)
+        
+   
+    
+</script>
+    
+</body>
+</html>

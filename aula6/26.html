@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // sequencia de fibonnaci até 2000
+    anterior = 0 
+    atual = 1 
+    proximo = anterior + atual 
+
+    while(proximo <= 2000){
+        document.write(proximo + '<br>')
+        anterior = atual
+        atual = proximo 
+        proximo = atual + anterior
+    }
+
+
+</script>
+</body>
+</html>

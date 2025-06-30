@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //versão 1 -> Ver qual jogada ganha 
+        // versão 2 -> Ver quando o jogador ganha 
+        
+        jogador = prompt("digite sua jogada :'Pedra','Papel','Tesoura' ")
+        
+        jogadas = ['Pedra','Papel','Tesoura']
+        pc = jogadas [math.floor(math.random()*3)]
+
+        if((jogador == 'Pedra'&& pc == 'Tesoura')
+        || (jogador == 'Papel'&& pc == 'Pedra')
+        || (jogador == 'Tesoura' && pc == 'Papel')
+        ){
+            alert(' jogador Ganhou')
+        }
+            
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // jogo de par ou impar 
+        // usuario escolhe um numero
+        // PC sorteia um numero 
+        // se a soma for :
+        //par -> usuario ganha 
+        // impar -> usuario perde 
+
+        const usuario = +(prompt("digite um numero"))
+        pc = Math.floor(Math.random()*50)
+
+        function sorte(usuario, pc){
+            soma = usuario + pc
+            if(soma % 2 == 0){
+                alert('usuario Ganhou!')
+            }
+            else{
+                alert('usuario perdeu!')
+            }
+        }
+        sorte(usuario, pc)
+    </script>
+</body>
+</html>

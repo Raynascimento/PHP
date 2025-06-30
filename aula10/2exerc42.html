@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Usuario digita 10 numeros
+        //Quantos deles são maiores que 10
+        
+        lista = []
+        qtd = 10 
+        contador10 = 0
+
+        for(i = 0; i < qtd; i++){
+            lista[i] = +(prompt("Digite um número"))
+            if(lista[i] > 10){
+                contador10++
+            }
+
+        }
+        alert('quantidade de números maiores que dez:'+ contador10)
+    </script>
+</body>
+</html>
